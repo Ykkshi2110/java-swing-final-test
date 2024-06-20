@@ -24,7 +24,7 @@ public class DBHelper {
     private static final String DATABASE_NAME = "NetCF";
     private static final String USER_NAME = "sa";
 
-    private static final String PASSWORD = "Buianhquoc2110";
+    private static final String PASSWORD = "concac123";
 
     private  Connection connection = null;
 

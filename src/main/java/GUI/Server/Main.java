@@ -7,8 +7,7 @@ import Utils.Helper;
 import Utils.ServiceProvider;
 
 import java.io.IOException;
-
-public class Main {
+ public class Main {
     public static void main(String[] args) throws IOException {
         Helper.initUI();
      ServiceProvider.init();
