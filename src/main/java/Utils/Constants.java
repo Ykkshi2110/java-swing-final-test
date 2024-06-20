@@ -4,7 +4,7 @@ import GUI.Server.Account.AccountGUI;
 import GUI.Server.Computer.ComputerManageGUI;
 import GUI.Server.ComputerUsage.ComputerUsageGUI;
 import GUI.Server.Employee.ManagerEmployee;
-import GUI.Server.EmployeeSalary.EmployeeSalary;
+//import GUI.Server.EmployeeSalary.EmployeeSalary;
 import GUI.Server.Home.Home;
 import GUI.Server.Invoice.CreateInvoiceGUI;
 import GUI.Server.Invoice.InvoiceManageGUI;
@@ -67,8 +67,8 @@ public final class Constants {
         tabs.add(Tab.builder().title("Thống kê").key("thongke")
                         .children(new ArrayList<>(
                                 List.of(
-                                        Tab.builder().title("Doanh thu từ máy").key("thongke-account").contentPanel(new ComputerUsageGUI()).build(),
-                                        Tab.builder().title("Thống kê lương nhân viên").key("thongke-emloyee-salary").contentPanel(new EmployeeSalary()).build()
+                                        Tab.builder().title("Doanh thu từ máy").key("thongke-account").contentPanel(new ComputerUsageGUI()).build()
+//                                        Tab.builder().title("Thống kê lương nhân viên").key("thongke-emloyee-salary").contentPanel(new EmployeeSalary()).build()
                                 )
                         ))
                 .build());

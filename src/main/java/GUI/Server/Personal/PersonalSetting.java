@@ -19,7 +19,7 @@ import java.sql.SQLException;
 
 /**
  *
- * @author Laffy
+ * @author Anh Quốc, Thanh Phong, Bảo Thiên
  */
 public class PersonalSetting extends javax.swing.JPanel {
     private EmployeeBUS employeeService ;

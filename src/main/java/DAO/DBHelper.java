@@ -22,9 +22,9 @@ public class DBHelper {
 
     private static final String SERVER = "BUIANHQUOC";
     private static final String DATABASE_NAME = "NetCF";
-    private static final String USER_NAME = "sa";
+    private static final String USER_NAME = "Sa_NetCF";
 
-    private static final String PASSWORD = "concac123";
+    private static final String PASSWORD = "Buianhquoc2110";
 
     private  Connection connection = null;
 
